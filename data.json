@@ -1,0 +1,27 @@
+{
+    "Toko Buku": {
+        "Nama": "Toko Buku MekarWangi",
+        "Alamat":"Jl . RifasyaHes sitompul 32",
+        "Pengarang":"Abdurrahman Sitompul",
+        "Koleksi_Buku": [
+            {
+                "Judul":"Sholat lebih utama dari ngoding",
+                "Kategori":"Non-Fiksi",
+                "Harga":1500000
+            },
+            {
+                "Judul":"Sunguts Lele for Programmers",
+                "Kategori":"Non-Fiksi",
+                "Harga":1600000
+            },
+            {
+                "Judul":"Belajar Mempelajari Isi Hati Vscode",
+                "Kategori":"Non-Fiksi",
+                "Harga":180000
+            }
+        ]
+
+    }
+}
+
+
