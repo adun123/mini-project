@@ -24,6 +24,7 @@ function loadbloc() {
     // Mengambil data JSON toko buku dan menampilkan koleksi buku dalam bentuk tabel
     $.ajax({
         url: 'data.json',
+        
         dataType: 'json',
         success: function(data){
             var table = '<table><tr><th>Judul Buku</th><th>Kategori</th><th>Harga</th></tr>';

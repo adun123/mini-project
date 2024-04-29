@@ -1,24 +1,24 @@
 {
-    "toko_buku": {
-      "nama": "Toko Buku Malapetaka",
-      "alamat": "Jl. Rifasyahes",
-      "pengarang": "Abdurrahmans",
-      "koleksi_buku": [
-        {
-          "judul": "Sholat lebih utama dari pada ngoding",
-          "kategori": "Non-fiksi",
-          "harga": 150000
-        },
-        {
-          "judul": "Sunguts Lele For Programmers",
-          "kategori": "Anak-anak",
-          "harga": 80000
-        },
-        {
-          "judul": "Pencerahan Dalam 7 Hari",
-          "kategori": "Self-help",
-          "harga": 120000
-        }
-      ]
+    "Toko_buku" : {
+        "nama": "Toko Buku ABC",
+        "pemilik": "John Doe",
+        "alamat": "Jl. Contoh No. 123",
+        "koleksi_buku": [
+            {
+                "judul": "Pemrograman Web",
+                "tahun_terbit": 2020,
+                "harga": 150000
+            },
+            {
+                "judul": "Pemrograman Java",
+                "tahun_terbit": 2019,
+                "harga": 200000
+            },
+            {
+                "judul": "Algoritma dan Struktur Data",
+                "tahun_terbit": 2018,
+                "harga": 180000
+            }
+        ]
     }
-  }
+}
