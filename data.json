@@ -1,5 +1,5 @@
 {
-    "Toko Buku": {
+    "Toko_buku": {
         "Nama": "Toko Buku MekarWangi",
         "Alamat":"Jl . RifasyaHes sitompul 32",
         "Pengarang":"Abdurrahman Sitompul",
@@ -20,7 +20,6 @@
                 "Harga":180000
             }
         ]
-
     }
 }
 

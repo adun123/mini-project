@@ -6,6 +6,22 @@
     <title>Mini Project Toko Buku</title>
 </head>
 <body>
-    
+    <script>
+        $(document).ready(function(){
+            //Pengambilan data toko buku saaat halaman dimuat
+            $.ajak({
+                url:'data.json',
+                datatype: 'json',
+                succes : function(data){
+                    //menampilkan informasi toko buku
+                    $('#nama_toko').text(data.Toko_buku.nama);
+                    $('#alamat_toko').text(data.Toko_buku.alamat);
+                    $('#pengarang_buku').text(data.Toko_buku.pengarang);
+                }
+            });
+
+
+        })
+    </script>
 </body>
 </html>
