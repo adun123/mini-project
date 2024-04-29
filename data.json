@@ -3,7 +3,7 @@
         "Nama": "Toko Buku MekarWangi",
         "Alamat":"Jl . RifasyaHes sitompul 32",
         "Pengarang":"Abdurrahman Sitompul",
-        "Koleksi_Buku": [
+        "Koleksi_buku": [
             {
                 "Judul":"Sholat lebih utama dari ngoding",
                 "Kategori":"Non-Fiksi",

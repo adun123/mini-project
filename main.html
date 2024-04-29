@@ -19,9 +19,28 @@
                     $('#pengarang_buku').text(data.Toko_buku.pengarang);
                 }
             });
+        });
 
 
-        })
+        //AJAX
+
+        
+        function loadbloc(){
+            //mengambil data json toko buku dan menampilkan koleksi buku dalam bentuk tabel
+            $.ajak({
+                url:'data.json',
+                datatype: 'json',
+                succes: function (data){
+                    var table = '<table><tr><th>Judul Buku</th><th>Kategori</th><th>Harga</th></tr>';
+                        $.each(data.Toko_buku.Koleksi_buku, function(index, book){
+                            table += '<tr><td>' + book.Judul + '</td><td>' + book.Kategori + '</td><td>' + book.Harga + '</td></tr>';
+                        });
+
+                        table += '</table>';
+                        $('#koleksi_buku').html(table);
+                }
+            })
+        }
     </script>
 </body>
 </html>
